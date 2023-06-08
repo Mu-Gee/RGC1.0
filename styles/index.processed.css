@@ -263,10 +263,18 @@ span {
 }
 
 .ministries img {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 60%;
+  max-height: 60%;
   margin: 0 auto;
   border-radius: 10%;
+}
+
+.ministries img:hover {
+  max-width: 90%;
+  max-height: 900%;
+  margin: 0 auto;
+  border-radius: 5%;
+  transition: all ease-in-out;
 }
 
 .ministries p {
