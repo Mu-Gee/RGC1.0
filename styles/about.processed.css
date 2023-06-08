@@ -3,8 +3,6 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
 }
 
 .wrapper {
@@ -45,7 +43,8 @@ ul.nav:hover {
 }
 
 .navbar .navbar-brand img {
-  height: 2.5em;
+  height: 3em;
+  border-radius: 50%;
 }
 
 .navbar .navbar-toggle .icon-bar {
@@ -119,22 +118,139 @@ span.hamburger {
 }
 
 .headline-wrapper {
-  width: 120%;
-  background-image: url(https://i.imgur.com/Gui18mY.jpg);
+  width: 114%;
+  background-image: url(/RGC/img/BG.jpg);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-size: 100% 75%;
   margin-left: calc(50% - 50vw);
-  margin-top: -4.8em;
-  padding-bottom: 0.5em;
+  margin-top: -20vw;
+  padding-bottom: 1vw;
 }
 
-.headline-tagline h1 {
-  font-family: "Kristi", serif;
-  font-size: 8em;
-  color: #fff;
-  margin-top: 15vw;
+#headline {
+  margin-top: 25vw;
   text-align: center;
+  color: #fff;
+  font-size: 9.2vw;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  overflow-y: hidden;
+}
+
+hr.styled {
+  height: 1px;
+  width: 75%;
+  margin: 0 auto;
+  border: 0;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.new-tagline h1 {
+  font-family: "Kristi", serif;
+  font-size: 3em;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  margin-right: 0.2em;
+}
+
+span {
+  margin-left: 0.5em;
   margin-right: 0.5em;
+}
+
+.new-button {
+  font-family: "Montserrat", sans-serif;
+  color: #2cfff1;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.new-button a {
+  display: inline-block;
+}
+
+.new-button h1 {
+  color: #2cfff1;
+  font-size: 1.5em;
+  border: 3px solid #2cfff1;
+  display: inline-block;
+  padding: 15px 15px;
+  margin-right: 1em;
+}
+
+#sermon-link {
+  display: inline-block;
+}
+
+.fa-6x {
+  display: none;
+}
+
+.col-md-4 {
+  margin: 2em auto;
+  text-align: center;
+}
+
+.service-times {
+  text-align: center;
+  font-family: "Montserrat", serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0 auto;
+}
+
+.service-times h3 {
+  font-size: 1.2em;
+}
+
+.service-times strong {
+  color: #2cfff1;
+  font-size: 1.2em;
+  display: none;
+}
+
+#service-hr {
+  height: 1px;
+  width: 50%;
+  margin: 1.2em auto 0 auto;
+  border: 0;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(44, 255, 241, 0.75), rgba(255, 255, 255, 0));
+}
+
+.current-series {
+  background: #ededed;
+  margin: 0 auto;
+  padding: 2em 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.series-transition {
+  display: inline-block;
+}
+
+.current-series a {
+  display: inline-block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.current-series h1 {
+  font-size: 2.5em;
+  font-family: "Montserrat", san-serif;
+  text-transform: uppercase;
+  padding: 0.8em auto;
+}
+
+.current-series img {
+  max-height: 70%;
+  max-width: 70%;
+  vertical-align: top;
+  border-radius: 2%;
 }
 
 .content {
@@ -182,7 +298,6 @@ footer {
   margin-left: calc(50% - 50vw);
   padding-bottom: 8em;
   background-color: #292a2b;
-  margin-top: 22em;
 }
 
 .church-info {
