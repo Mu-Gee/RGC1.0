@@ -31,6 +31,11 @@ nav.navbar {
   color: #d6d6d6;
 }
 
+.shticon {
+  height: 3em;
+  border-radius: 50%;
+}
+
 ul.nav:hover {
   text-decoration: none;
   color: #fff;
