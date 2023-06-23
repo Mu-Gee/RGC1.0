@@ -357,7 +357,7 @@ footer {
 }
 
 .info {
-  margin-top: 2.5em;
+  margin-top: 1.5em;
 }
 
 p.address {
@@ -366,6 +366,7 @@ p.address {
 
 .social {
   margin: -0.8em auto;
+  padding-top: 1em;
 }
 
 @media screen and (max-width: 460px) {
