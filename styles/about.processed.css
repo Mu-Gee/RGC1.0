@@ -353,11 +353,18 @@ footer {
   padding-top: 2em;
 }
 
-.copyright p span {
+
+.copyright span {
   color: #27ae60;
   text-align: center;
   text-transform: uppercase;
   font-family:cursive;
+}
+
+.copyright span:hover {
+  text-decoration: none;
+  color: #ff762c;
+  transition: all 0.4s ease-in-out;
 }
 
 .church-info {
