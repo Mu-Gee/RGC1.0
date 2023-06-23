@@ -314,6 +314,18 @@ footer {
   background-color: #292a2b;
 }
 
+.copyright {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.copyright p span {
+  color: #27ae60;
+  text-align: center;
+  text-transform: uppercase;
+  font-family:cursive;
+}
+
 .church-info {
   color: #fff;
   font-family: "Montserrat", sans-serif;
