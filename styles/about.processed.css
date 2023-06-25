@@ -290,14 +290,9 @@ iframe{
   height: 800px;
   padding-bottom: 2em;
 }
+
 .series-transition {
   display: inline-block;
-}
-
-.current-series a {
-  display: inline-block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
 }
 
 .current-series h1 {
@@ -305,13 +300,6 @@ iframe{
   font-family: "Montserrat", san-serif;
   text-transform: uppercase;
   padding: 0.8em auto;
-}
-
-.current-series img {
-  max-height: 70%;
-  max-width: 70%;
-  vertical-align: top;
-  border-radius: 2%;
 }
 
 .ministries h1 {
@@ -405,7 +393,6 @@ a {
   display: inline-block;
   margin: 0.5em 0.3em 0 0.3em;
 }
-
 
 #phone-number:link {
   display: inline-block;
@@ -515,10 +502,6 @@ p.address {
   }
   #service-hr {
     display: none;
-  }
-  .current-series img {
-    max-height: 60%;
-    max-width: 50%;
   }
   .statement-verse {
     text-align: center;
