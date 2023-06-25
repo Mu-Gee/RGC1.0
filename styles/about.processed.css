@@ -276,7 +276,7 @@ hr.styled {
 .current-series {
   background: #818181;
   margin: 0 auto;
-  padding: 2em 0;
+  padding: 1em 0;
   text-align: center;
   display: flex;
   align-items: center;
@@ -286,8 +286,9 @@ hr.styled {
 }
 
 iframe{
-  width: 100%;
+  width: 90%;
   height: 800px;
+  padding-bottom: 2em;
 }
 .series-transition {
   display: inline-block;
