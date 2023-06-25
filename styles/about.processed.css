@@ -278,7 +278,9 @@ hr.styled {
   margin: 0 auto;
   padding: 2em 0;
   text-align: center;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .series-transition {
