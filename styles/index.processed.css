@@ -28,7 +28,19 @@ nav.navbar {
   text-decoration: none;
   background: none;
   border: 2px solid #e2e2e2;
-  color: #d6d6d6;
+  color: #2cfff1;
+}
+
+#home:visited:hover,
+#about:visited:hover,
+#ministries:visited:hover,
+#im-new:visited:hover,
+#contact:visited:hover {
+  text-decoration: none;
+  background: none;
+  border: 2px solid #2cfff1;
+  color: #ff762c;
+  transition: all 0.4s ease-in-out;
 }
 
 ul.nav:hover {
@@ -156,17 +168,52 @@ hr.styled {
   padding: 0.2em;
 }
 
-span {
+.new-tagline span {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
 
+.btn-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  padding-top: 10em;
+  padding-bottom: 2em;
+}
+
+.btn-text {
+  padding: 0 2rem;
+}
+
+.btn .btn-text {
+  padding: 0 2rem;
+}
+
 .new-button {
   font-family: "Montserrat", sans-serif;
-  color: #2cfff1;
+  color: #ff762c;
   text-transform: uppercase;
   text-align: center;
   margin: 0 auto;
+}
+
+.new-button:hover {
+  color: #2cfff1;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none;
+}
+
+.new-button span {
+  border: 3px solid #2cfff1;
+  font-size: 3em;
+  border-radius: 10px;
+}
+
+.new-button span:hover {
+  border: 3px solid #ff762c;
+  transition: all 0.4s ease-in-out;
 }
 
 .new-button a {
@@ -316,6 +363,28 @@ footer {
   margin-left: calc(50% - 50vw);
   padding-bottom: 8em;
   background-color: #292a2b;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.copyright span {
+  color: #27ae60;
+  text-align: center;
+  text-transform: uppercase;
+  font-family:cursive;
+}
+
+.copyright span:hover {
+  text-decoration: none;
+  color: #ff762c;
+  transition: all 0.4s ease-in-out;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 .church-info {
