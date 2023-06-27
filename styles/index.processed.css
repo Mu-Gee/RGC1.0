@@ -5,6 +5,11 @@ body {
   overflow-x: hidden;
 }
 
+/*uncomment this to make scrollbars hidden
+body::-webkit-scrollbar{
+  display: none;
+}*/
+
 .wrapper {
   overflow-x: hidden;
 }
