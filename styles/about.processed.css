@@ -185,6 +185,8 @@ hr.styled {
   display: flex;
   -ms-flex-item-align: start;
   align-self: flex-start;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .btn-text {
@@ -231,10 +233,6 @@ hr.styled {
   display: inline-block;
   padding: 15px 15px;
   margin-right: 1em;
-}
-
-#sermon-link {
-  display: inline-block;
 }
 
 .fa-6x {

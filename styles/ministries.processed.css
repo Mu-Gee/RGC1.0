@@ -3,9 +3,10 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-/*uncomment this to make scrollbars hidden
+/*uncomment this to make scrollbars hidden, beware of other effects it causes
 body::-webkit-scrollbar{
   display: none;
 }*/
