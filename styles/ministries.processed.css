@@ -375,7 +375,7 @@ p.address {
   margin: -0.8em auto;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 400px) {
   .overlay a {
     font-size: 20px;
   }
